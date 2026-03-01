@@ -42,16 +42,6 @@ function dessinerDatte(x, y, taille) {
   ellipse(20, -10, 3, 5);
 
 
-  // lumière / reflets
-  fill(255, 255, 255, 60); 
-  beginShape();
-  vertex(-20, -30);
-  bezierVertex(-10, -35, 10, -35, 15, -20);
-  bezierVertex(10, -25, -10, -25, -20, -22);
-  endShape(CLOSE);
-
-  ellipse(-25, 0, 5, 12);
-
 
   // tige
   fill(80, 30, 10);
