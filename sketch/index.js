@@ -4,6 +4,7 @@ let pairesLabel
 let lancerButton
 
 function setup() {
+    console.log('idvlc')
     createCanvas(windowWidth, windowHeight)
     noLoop()
 
